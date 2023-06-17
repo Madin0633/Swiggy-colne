@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Roboto+Condensed&family=Roboto:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.right {
+  width: 60%;
+  display: flex;
+  align-items: space-between;
+  flex-wrap: wrap;
+  height: 220px;
+  align-items: space-between;
+}
+.logo {
+  height: 40px;
+  margin-left: 3px;
+}
+img {
+  width: 250px;
+  margin-top: 80px;
+}
+.liks {
+  display: inline;
+  margin-top: 100px;
+  margin-left: 290px;
+  display: flex;
+}
+.liks > span > a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  display: inline-block;
+  color: #000;
+  letter-spacing: 0;
+}
+.liks > a {
+  padding: 10px;
+  margin-left: 20px;
+}
+.btn {
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-weight: 800;
+  width: 100px;
+  height: 40px;
+  word-spacing: 4px;
+  text-decoration: none;
+  text-align: center;
+}
+.left {
+  width: 40%;
+  background-image: url("food\ image.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.heading {
+  margin: 70px 50px;
+  width: 100vh;
+}
+.heading > h1 {
+  font-size: 40px;
+}
+.heading > p {
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: 300;
+  color: #586b78;
+}
+.input {
+  margin-left: 50px;
+  height: 60px;
+  width: 90vh;
+  border: 1px solid #586b78;
+  display: flex;
+  align-items: center;
+  transition: border-color 0.3s;
+}
+.input:focus {
+  border-color: orange;
+}
+.search {
+  height: 40px;
+  /* width  : 10px; */
+  padding: 0 160px 0px 15px;
+  border: none;
+  font-size: 18px;
+}
+.search:focus {
+  outline: none;
+}
+.input > span {
+  color: #262525;
+  margin-left: 60px;
+}
+.input > p {
+  font-size: 15px;
+  color: #586b78;
+  font-weight: 500;
+}
+.find-food {
+  background-color: #fc8019;
+  text-align: center;
+  width: 9vw;
+  border-color: #fc8019;
+}
+.find-food > h3 {
+  margin-top: 19px;
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+}
+.content {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.content > p {
+  margin-top: 10px;
+  line-height: 1.5;
+  letter-spacing: -0.3px;
+  font-weight: 600;
+}
+.content > span {
+  color: #586b78;
+}
+.content > p > span {
+  color: #586b78;
+}
